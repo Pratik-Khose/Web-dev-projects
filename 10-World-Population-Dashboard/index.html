@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Population Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="dark-theme">
+    <header class="main-header">
+      <nav class="navbar">
+        <div class="logo">🌍 World Population</div>
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Search countries..." />
+        </div>
+        <div class="nav-links">
+          <a href="#hero" class="active">Home</a>
+          <a href="#globe">Globe</a>
+          <a href="#charts">Charts</a>
+          <a href="#maps">Maps</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <h1>Explore World Population Data</h1>
+          <p>Interactive visualizations and real-time statistics of global population trends</p>
+          <div class="hero-stats">
+            <div class="stat-card">
+              <h3>Global Population</h3>
+              <p class="stat-number">7.9B</p>
+            </div>
+            <div class="stat-card">
+              <h3>Annual Growth</h3>
+              <p class="stat-number">1.1%</p>
+            </div>
+            <div class="stat-card">
+              <h3>Most Populous</h3>
+              <p class="stat-number">China</p>
+            </div>
+          </div>
+          <a href="#globe" class="cta-button">Explore Data</a>
+        </div>
+        <div class="hero-background"></div>
+      </section>
+
+      <section id="globe" class="globe-section">
+        <div class="globe-header">
+          <h2>Global Population Distribution</h2>
+          <p>Interact with the globe to explore population data</p>
+        </div>
+        <div class="globe-container">
+          <canvas id="globe-canvas"></canvas>
+        </div>
+      </section>
+
+      <section id="charts" class="section">
+        <div class="grid">
+          <div class="chart-container">
+            <h3>Top 10 Most Populated Countries</h3>
+            <canvas id="barChart"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Population by Continent</h3>
+            <canvas id="pieChart"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3>Population Growth Over Time</h3>
+            <div id="lineChart"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="maps" class="section">
+        <div class="grid">
+          <div class="chart-container">
+            <h3>Population vs GDP</h3>
+            <div id="scatterPlot"></div>
+          </div>
+          <div class="chart-container">
+            <h3>Regional Population</h3>
+            <div id="bubbleChart"></div>
+          </div>
+          <div class="chart-container">
+            <h3>Population Pyramid</h3>
+            <div id="populationPyramid"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>About</h4>
+          <p>Interactive dashboard showcasing global population statistics and trends</p>
+        </div>
+        <div class="footer-section">
+          <h4>Data Sources</h4>
+          <ul>
+            <li>United Nations Population Division</li>
+            <li>World Bank Open Data</li>
+            <li>Our World in Data</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#globe">Globe</a></li>
+            <li><a href="#charts">Charts</a></li>
+            <li><a href="#maps">Maps</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 World Population Dashboard. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
