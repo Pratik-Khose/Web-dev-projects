@@ -1,0 +1,53 @@
+{
+  "basic": [
+    {
+      "question": "What is the correct way to declare a JavaScript variable?",
+      "options": ["variable name;", "var name;", "v name;", "let name;"],
+      "answer": 3
+    },
+    {
+      "question": "Which operator is used for strict equality comparison?",
+      "options": ["==", "===", "=", "!="],
+      "answer": 1
+    },
+    {
+      "question": "What will console.log(typeof []) output?",
+      "options": ["array", "object", "undefined", "null"],
+      "answer": 1
+    }
+  ],
+  "intermediate": [
+    {
+      "question": "What is closure in JavaScript?",
+      "options": ["A way to close browser", "Inner function with access to outer scope", "A way to end loops", "A type of loop"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of Promise in JavaScript?",
+      "options": ["To handle synchronous operations", "To handle asynchronous operations", "To create loops", "To style elements"],
+      "answer": 1
+    },
+    {
+      "question": "What is event bubbling?",
+      "options": ["Creating new events", "Event propagation from child to parent", "Creating animations", "Handling errors"],
+      "answer": 1
+    }
+  ],
+  "advanced": [
+    {
+      "question": "What is the purpose of the 'Symbol' type in JavaScript?",
+      "options": ["To create icons", "To create unique identifiers", "To handle errors", "To style elements"],
+      "answer": 1
+    },
+    {
+      "question": "What is a WeakMap in JavaScript?",
+      "options": ["A map with weak keys", "A slow map", "A simple object", "A type of array"],
+      "answer": 0
+    },
+    {
+      "question": "What is the difference between 'let' and 'const'?",
+      "options": ["No difference", "const is block-scoped", "let cannot be reassigned", "const cannot be reassigned"],
+      "answer": 3
+    }
+  ]
+}

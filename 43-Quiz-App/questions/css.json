@@ -1,0 +1,53 @@
+{
+  "basic": [
+    {
+      "question": "Which CSS property is used to change the text color?",
+      "options": ["text-color", "color", "font-color", "text-style"],
+      "answer": 1
+    },
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+      "answer": 1
+    },
+    {
+      "question": "Which property is used to change the background color?",
+      "options": ["bgcolor", "background-color", "color", "background"],
+      "answer": 1
+    }
+  ],
+  "intermediate": [
+    {
+      "question": "What is the purpose of CSS Flexbox?",
+      "options": ["To create flexible responsive layouts", "To style text", "To add animations", "To handle forms"],
+      "answer": 0
+    },
+    {
+      "question": "Which CSS property is used for creating rounded corners?",
+      "options": ["round-corners", "border-round", "border-radius", "corner-radius"],
+      "answer": 2
+    },
+    {
+      "question": "What is the CSS Box Model?",
+      "options": ["A design pattern", "Content, padding, border, and margin", "A 3D modeling tool", "A layout system"],
+      "answer": 1
+    }
+  ],
+  "advanced": [
+    {
+      "question": "What is CSS Grid used for?",
+      "options": ["Creating tables", "Two-dimensional layout systems", "Adding gradients", "Styling forms"],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of CSS Custom Properties (Variables)?",
+      "options": ["Store data", "Reuse values throughout a document", "Create animations", "Handle events"],
+      "answer": 1
+    },
+    {
+      "question": "What is the difference between 'display: none' and 'visibility: hidden'?",
+      "options": ["They are the same", "One hides element but preserves space", "One is faster", "Neither hides elements"],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "basic": [
+    {
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Hyper Transfer Markup Language", "Home Tool Markup Language"],
+      "answer": 0
+    },
+    {
+      "question": "Which tag is used to create a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "answer": 1
+    },
+    {
+      "question": "Which HTML element is used to define important text?",
+      "options": ["<important>", "<b>", "<strong>", "<i>"],
+      "answer": 2
+    }
+  ],
+  "intermediate": [
+    {
+      "question": "What is the purpose of the HTML5 'canvas' element?",
+      "options": ["To display images", "To draw graphics via JavaScript", "To create navigation menus", "To style web pages"],
+      "answer": 1
+    },
+    {
+      "question": "Which HTML attribute is used to specify an alternate text for an image?",
+      "options": ["title", "alt", "src", "description"],
+      "answer": 1
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "options": ["<break>", "<br>", "<lb>", "<newline>"],
+      "answer": 1
+    }
+  ],
+  "advanced": [
+    {
+      "question": "What is the purpose of the 'srcset' attribute in the img tag?",
+      "options": ["To set multiple source files", "To specify responsive images for different screen sizes", "To create image slideshows", "To add image filters"],
+      "answer": 1
+    },
+    {
+      "question": "Which HTML5 API is used for drag and drop functionality?",
+      "options": ["Drag API", "DragDrop API", "HTML5 Drag and Drop API", "Move API"],
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the 'defer' attribute in the script tag?",
+      "options": ["Prevents script execution", "Delays script execution until page loads", "Speeds up script loading", "None of the above"],
+      "answer": 1
+    }
+  ]
+}
